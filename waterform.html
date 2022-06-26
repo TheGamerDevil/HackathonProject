@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Water info form</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/owl.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/flaticon.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <div class="overlay"></div>
+    <!--============= ScrollToTop Section Ends Here =============-->
+
+
+       
+        <!--============= Header Section Ends Here =============-->
+
+    <!--============= Header Section Ends Here =============-->
+    <section class="page-header single-header bg_img oh" data-background="./assets/images/page-header.png">
+        <div class="bottom-shape d-none d-md-block">
+            <img src="./assets/css/img/page-header.png" alt="css">
+        </div>
+    </section>
+    <!--============= Header Section Ends Here =============-->
+
+
+    
+    <!--============= Contact Section Starts Here =============-->
+    <section class="contact-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header mw-100 cl-white">
+                <h2 class="title">Answer the questions below.</h2>
+            </div>
+            <div class="row justify-content-center justify-content-lg-between">
+                <div class="col-lg-7">
+                    <div class="contact-wrapper">                       
+                        <form action="waterform.php" method= "post" class="waterform">
+                            <h4 class="title text-center mb-30">Drinking water</h4>
+                            <div class="form-group">
+                                <label for="surename">Residential</label>
+                                <input type="text" id="DWResidential" name="DWResidential" >
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Landscape irrigation</label>
+                                <input type="text" id="DWLandscapeIrr" name ="DWLandscapeIrr" >
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Commercial</label>
+                                <input type="text" id="DWCommercial" name="DWCommercial" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Industrial</label>
+                                <input type="text" id="DWIndustrial" name ="DWIndustrial" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Agricultural</label>
+                                <input type="text" id="DWAgricultural" name ="DWAgricultural" >
+                            </div>
+                            <br>
+                            <h4 class="title text-center mb-30">Recycled water</h4>
+                            <div class="form-group">
+                                <label for="phone">Landscape irrigation</label>
+                                <input type="text"id="RWLandscapeIrr" name="RWLandscapeIrr" >
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Residential irrigation</label>
+                                <input type="text" id="RWResidentialIrr" name="RWResidentialIrr" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Commercial</label>
+                                <input type="text" id="RWCommercial" name="RWCommercial" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Agricultural</label>
+                                <input type="text" id="RWAgricultural" name="RWAgricultural" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Construction</label>
+                                <input type="text" id="RWConstruction" name="RWConstruction" >
+                            </div>
+                             <div class="form-group">
+                                <label for="name">Industrial</label>
+                                <input type="text" id="RWIndustrial" name="RWIndustrial" >
+                            </div>
+                           <div class="form-group text-center">
+                            <button type="submit" name="but_submit" id="but_submit" class="mt-2 mb-2">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-content">
+                        <div class="man d-lg-block d-none">
+                            <img src="./assets/images/contact/man.png" alt="bg">
+                        </div>
+                        <div class="section-header left-style">
+                            <h3 class="title">Log out</h3>
+                      
+                              <form method='post' action="">
+                                    <input type="submit" value="Logout" name="but_logout">
+                                    </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Contact Section Ends Here =============-->
+
+
+    <!--============= Map Section Starts Here =============-->
+    <!--
+    <div class="map-section padding-bottom-2">
+        <div class="container">
+            <div class="section-header">
+                <div class="thumb">
+                    <img src="./assets/images/contact/earth.png" alt="contact">
+                </div>
+                <h3 class="title">We Are Easy To Find</h3>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="maps-wrapper">
+                        <div class="maps"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->
+    <!--============= Map Section Ends Here =============-->
+
+
+    
+
+
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/magnific-popup.min.js"></script>
+    <script src="./assets/js/jquery-ui.min.js"></script>
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/waypoints.js"></script>
+    <script src="./assets/js/nice-select.js"></script>
+    <script src="./assets/js/owl.min.js"></script>
+    <script src="./assets/js/counterup.min.js"></script>
+    <script src="./assets/js/paroller.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCo_pcAdFNbTDCAvMwAD19oRTuEmb9M50c"></script>
+    <script src="./assets/js/map.js"></script>
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>
